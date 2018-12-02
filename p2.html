@@ -1,0 +1,49 @@
+<?php
+    include_once 'scripts/p2.php';
+?>
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+lang="en">
+<head>
+<!--  <meta charset="UTF-8"/>-->
+  <script type="text/javascript" src="scripts/p2.js"> </script>
+  <title>"Course creation form"</title>
+  <link type="text/css" href="styles/p2.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <div class="text" id="fields">
+    <fieldset>
+    <form  action="p2.php" method="post" onsubmit="return validation();">
+      <p>Course Discipline:
+      <input type="text" name="coursediscipline" id="coursediscipline"maxlength="4"/></p>
+      <p>Course Code:
+          <input type="text" name="coursecode" id="coursecode" maxlength="4" /></p>
+      <p>Course Title:
+      <input type=" text" name="coursetitle" id="coursetitle"/></p>
+      <p>Level:
+      <input type="text" name="level" id="level"/></p>
+      <p>Credits:
+      <input type="text" name="credits" id="credits" max="8"/></p>
+      <p>Semester:
+      <input type="text" name= "semester" id="semester" max="3"/></p>
+        
+        <p><select id="authorid">
+            <option value="0">AuthorId</option>
+            <option value="1">Sara Lambert</option>
+            <option value="2">Brad Williams</option>
+            <option value="3">Rosalyn Brown</option>
+            <option value="4">Emil Powell</option>
+            <option value="5">Rene Picard</option>
+            <option value="6">Larry Fields</option>
+        </select></p>
+    
+      <p><input class="invisible" type="text" name=" hidden" value=" c7fafc6d1d3ec4671a342b64e319909f"/></p>
+      <p><input type="submit" name="submit" value="SUBMIT"/></p>
+    </form>
+  </fieldset>
+  </div>
+  </body>
+</html>

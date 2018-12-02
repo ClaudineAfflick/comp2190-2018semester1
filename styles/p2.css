@@ -1,0 +1,10 @@
+body{
+    font-family: "verdana";
+    font-size: 1.1em;
+}
+.error{
+    background-color: red;
+}
+.invisible{
+    visibility: hidden;
+}

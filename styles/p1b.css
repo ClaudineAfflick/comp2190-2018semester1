@@ -1,0 +1,28 @@
+.centerwd{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 20px;
+    border:10px solid #d0d0ff;
+    margin: 20px;
+}
+#line{
+    border-bottom: 2px solid black;
+}
+.leftwd{
+    text-align: left;
+    grid-template-columns: 
+}
+
+.text{
+    font-family: Verdana;
+    font-size: 12px;
+}
+table,tr,td,th{
+    border-spacing: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
